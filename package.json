@@ -23,7 +23,8 @@
     "LICENSE",
     "SHA256SUMS",
     "lib/index.js",
-    "lib/pushsafer-notifier.js"
+    "lib/pushsafer-notifier.js",
+    "manifest.json"
   ],
   "moziot": {
     "api": {

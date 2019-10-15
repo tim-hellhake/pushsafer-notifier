@@ -1,0 +1,33 @@
+{
+  "id": "pushsafer-notifier",
+  "name": "Pushsafer",
+  "short_name": "Pushsafer",
+  "version": "0.1.0",
+  "description": "Send a notification to your pushsafer app (gateway >= 0.9.0 only)",
+  "homepage_url": "https://github.com/tim-hellhake/pushsafer-notifier#readme",
+  "author": "Tim Hellhake",
+  "license": "MPL-2.0",
+  "manifest_version": 1,
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "{nodeLoader} {path}",
+      "primary_type": "notifier",
+      "strict_max_version": "*",
+      "strict_min_version": "0.10.0"
+    }
+  },
+  "options": {
+    "schema": {
+      "properties": {
+        "apiKey": {
+          "title": "The api key",
+          "type": "string"
+        }
+      },
+      "required": [
+        "apiKey"
+      ],
+      "type": "object"
+    }
+  }
+}
