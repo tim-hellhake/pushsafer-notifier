@@ -2,7 +2,7 @@
   "id": "pushsafer-notifier",
   "name": "Pushsafer",
   "short_name": "Pushsafer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Send a notification to your pushsafer app (gateway >= 0.9.0 only)",
   "homepage_url": "https://github.com/tim-hellhake/pushsafer-notifier#readme",
   "author": "Tim Hellhake",
